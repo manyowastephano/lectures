@@ -9,7 +9,7 @@ font-family: sans-serif;
     position:static; 
     width: 100%;
     height:fit-content;
-     overflow-x:hidden;
+     overflow:hidden;
 }
 .tophcontainer{
     background-color:rgb(7, 54, 87);
@@ -50,7 +50,7 @@ font-family: cursive;
     grid-template-columns:repeat(auto-fit,minmax(400px,3fr));
     padding:5px;
      justify-content:center;
-     marging:10px
+     margin:10px
 } 
  ul{
     background:rgb(7, 54, 87);
@@ -263,7 +263,8 @@ color: #fff;
     width:300px; 
     height: 300px;
     text-align: center;
-
+    margin-right:15px;
+      padding:5px;
     box-shadow: 3px 3px 6px rgb(9, 84, 128);
     border-radius: 10px;
 }
