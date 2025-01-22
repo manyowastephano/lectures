@@ -9,6 +9,7 @@ font-family: sans-serif;
     position:static; 
     width: 100%;
     height:fit-content;
+     overflow-x:hidden;
 }
 .tophcontainer{
     background-color:rgb(7, 54, 87);
@@ -47,8 +48,7 @@ font-family: cursive;
 .leftcontaniner{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(400px,3fr));
-    margin-left:5%;
-    padding:10px;
+    padding:5px;
      justify-content:center;
      marging:10px
 } 
